@@ -33,4 +33,9 @@ build*/
 # Qt Creator backups
 *.autosave
 
+# Clion
+.idea/
+
 # End of https://www.gitignore.io/api/qtcreator
+
+cmake-build-debug/

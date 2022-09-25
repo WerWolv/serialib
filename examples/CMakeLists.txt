@@ -1,0 +1,6 @@
+project(serialib_examples)
+
+add_subdirectory(example1)
+add_subdirectory(example2)
+
+add_custom_target(serialib_examples DEPENDS serialib_example1 serialib_example2)
